@@ -8,7 +8,6 @@
   - name: date
     title: "Date"
     type: date_filter
-    default_value: 2016
 
 #   - name: event
 #     title: 'First Event'
