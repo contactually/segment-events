@@ -7,7 +7,7 @@ view: event_list {
     distribution_style: all
     sql: SELECT
         event as event_types
-      FROM marketing_events_staging.tracks
+      FROM marketing_production.tracks
       GROUP BY 1
        ;;
   }

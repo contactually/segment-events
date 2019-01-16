@@ -1,5 +1,5 @@
 view: tracks {
-  sql_table_name: marketing_events_staging.tracks ;;
+  sql_table_name: marketing_production.tracks ;;
 
   dimension: anonymous_id {
     type: string
