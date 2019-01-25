@@ -7,9 +7,11 @@ include: "*.view"
 
 # - explore: pages
 
+label: "Segment Marketing Events"
+
 explore: event_facts {
   view_label: "Events"
-  label: "Events"
+  label: "Page Events"
 
   join: pages {
     view_label: "Events"

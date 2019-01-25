@@ -7,9 +7,11 @@ include: "*.view"
 # include all dashboards in this project
 include: "*.dashboard"
 
+label: "Segment Marketing Events"
+
 explore: track_facts {
   view_label: "Events"
-  label: "Events"
+  label: "Track Events"
 
   join: tracks {
     view_label: "Events"
@@ -56,6 +58,8 @@ explore: track_facts {
 }
 
 explore: sessions_trk {
+  label: "Track Sessions"
+
   join: session_trk_facts {
     view_label: "sessions"
     sql_on: ${sessions_trk.session_id} = ${session_trk_facts.session_id} ;;
